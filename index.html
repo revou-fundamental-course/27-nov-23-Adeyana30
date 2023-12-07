@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Luas Segitiga    </title>
+</head>
+<body>
+
+    <h1>Hitung Luas Segitiga</h1>
+    <!-- Coding untuk mengisi Form -->
+    <form id="kalkulatorForm">
+        <label for="base"><b>Alas:</b></label>
+            <input type="number" id="base" placeholder="Input Alas" required><br>
+
+        <label for="height"><b>Tinggi:</b></label>
+            <input type="number" id="height" placeholder="Input Tinggi" required><br>
+
+        <button type="button" onclick="hitungLuas()">Hitung</button>
+        <button type="button" onclick="deleteResult()">Hapus</button><br><br>
+
+        <label id="error"></label>
+        <label id="result"></label>
+        <!-- result ini dipake untuk menampilkan hasil perhitungan sisi a,b dan c -->
+        <!-- <p id="result"></p> -->
+        <script src="js/script.js"></script>
+    </form>
+</body>
+</html>
